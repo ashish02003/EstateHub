@@ -12,6 +12,7 @@ It allows users to browse, search,sell,rent and manage property listings with mo
 - Also provided services like  User-Guide,Community,ContactAgents and Tutorials
 - Upload and remove profile picture with progress 
 - Property Images uploads
+- ReduxToolkit is added for state management
 - Responsive UI with Tailwind CSS
 - Backend powered by Node.js & Express
 - Database: MongoDB Atlas
