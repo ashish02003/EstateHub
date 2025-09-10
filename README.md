@@ -1,6 +1,6 @@
 # EstateHub
 
-EstateHub is a full-stack MERN (MongoDB, Express, React, Node.js) real estate platform.  
+🏡EstateHub is a full-stack MERN (MongoDB, Express, React, Node.js) real estate platform.  
 It allows users to browse, search,sell,rent and manage property listings with modern UI and real-time updates.
 
 ## Features
