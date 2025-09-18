@@ -15,6 +15,7 @@ It allows users to browse, search,sell,rent and manage property listings with mo
 - ReduxToolkit is added for state management
 - Responsive UI with Tailwind CSS
 - Backend powered by Node.js & Express
+- Frontend powered by ReactJS
 - Database: MongoDB Atlas
 
 ## Setup
