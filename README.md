@@ -1,33 +1,56 @@
-# EstateHub
 
-🏡EstateHub is a full-stack MERN (MongoDB, Express, React, Node.js) real estate platform.  
-It allows users to browse, search,sell,rent and manage property listings with modern UI and real-time updates.
+🏡 EstateHub
 
-##🚀 Features
-- User authentication
-- SignIn,SignUp,signIn with google
-- Add, edit, and delete property listings
-- User can also send the message to Landlord
-- User can search property based on their money range.(Search Filters)
-- Also provided services like  User-Guide,Community,ContactAgents and Tutorials
-- Upload and remove profile picture with progress 
-- Property Images uploads
-- ReduxToolkit is added for state management
-- Responsive UI with Tailwind CSS
-- Backend powered by Node.js & Express
-- Frontend powered by ReactJS
-- Database: MongoDB Atlas
+EstateHub is a full-stack MERN (MongoDB, Express, React, Node.js) real estate platform.
+It allows users to browse, search, sell, rent, and manage property listings with a modern UI and real-time updates.
 
-## Setup
-1. Clone this repository : https://github.com/ashish02003/EstateHub
-2. Run `npm install` in both Backend and Frontend folders
-3.Create a .env file in the root directory and add:
-          MONGO_URI = your_online_mongoDB_atlas URL
-         JWT_SECRET = your_jwt_secret_key
-4. Start the development frontend:
-   ```bash
-   npm run dev
+✨ Features
 
-5. Start the development server:
-   ```bash
-   npm run dev
+🔐 User Authentication – Sign up, log in, and sign in with Google
+
+🏠 Property Management – Add, edit, and delete property listings
+
+💬 Messaging System – Users can send messages to landlords
+
+🔎 Search & Filters – Find properties by budget and filters
+
+📚 Extra Services – User Guide, Community, Contact Agents, and Tutorials
+
+🖼️ Profile & Media – Upload/remove profile picture with progress, property image uploads
+
+🛠️ Tech Stack – Redux Toolkit for state management, Tailwind CSS for responsive UI, Node.js + Express backend, MongoDB Atlas database
+
+🛠️ Tech Stack
+
+Frontend: React.js, Redux Toolkit, Tailwind CSS
+Backend: Node.js, Express.js
+Database: MongoDB Atlas
+
+🚀 Getting Started
+1. Clone this  repository : git clone https://github.com/ashish02003/EstateHub
+                            cd EstateHub
+2. Install dependencies
+   In both frontend and backend folders:
+
+   npm install
+
+3. Setup environment variables
+
+   Go to in  Profile.jsx
+        CLOUDINARY_CLOUD_NAME = enter_your_cloud_name;
+        CLOUDINARY_UPLOAD_PRESET = enter_your_cloudinary_upload_preset;
+
+   Now after that Create a .env file in the backend root folder and add:
+        MONGO_URI=your_online_mongoDB_atlas_URL
+        JWT_SECRET=your_jwt_secret_key
+
+4. Start development servers
+    Frontend:
+
+    npm run dev
+
+
+   Backend:
+
+   npm start
+
